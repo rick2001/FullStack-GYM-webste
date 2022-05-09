@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle&family=Merriweather+Sans&display=swap');
+.container h1{
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 39px;
+}
+.container{
+    height: 85vh;
+    margin-top: 50px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    width: 44vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+    padding: 12px 17px;
+    margin: 14px 0px;
+    color: black;
+
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 23px 28px;
+    margin-top: 21px;
+    cursor: pointer;
+    border-radius: 38px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.btn:hover{
+    background-color: rgb(223, 162, 231);
+    
+}
